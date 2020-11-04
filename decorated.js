@@ -1,4 +1,4 @@
-import logged from 'logger'
+import logged from '@mfelements/logger'
 
 export default function withLog(declaration){
     const { kind, elements, descriptor } = declaration;
